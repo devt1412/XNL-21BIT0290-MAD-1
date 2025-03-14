@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "450216580525",
+    "project_id": "devbank-1412",
+    "storage_bucket": "devbank-1412.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:450216580525:android:83112599e1e78fc0aebd24",
+        "android_client_info": {
+          "package_name": "com.example.devbank"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCGaU-0cGzRfLvwGJvobswH7f6lOmxECEU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

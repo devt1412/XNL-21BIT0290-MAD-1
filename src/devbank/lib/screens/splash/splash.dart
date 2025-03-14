@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:devbank/shared/theme/app_colors.dart';
 import 'controller.dart';
 import 'package:google_fonts/google_fonts.dart';
+import 'package:flutter_svg/flutter_svg.dart';
 
 class SplashScreen extends StatefulWidget {
   @override
@@ -20,7 +21,7 @@ class _SplashScreenState extends State<SplashScreen> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      backgroundColor: AppColors.darkGrey,
+      backgroundColor: AppColors.neutral70,
       body: Container(
         height: MediaQuery.of(context).size.height,
         width: MediaQuery.of(context).size.width,
@@ -31,19 +32,29 @@ class _SplashScreenState extends State<SplashScreen> {
             mainAxisAlignment: MainAxisAlignment.center,
             children: [
               SizedBox(height: MediaQuery.of(context).size.height / 3),
-              Container(
-                child: Image.asset(
-                  'assets/devbanklogo.png',
-                  width: 305,
-                  height: 231,
+              Center(
+                child: Container(
+                  child: SvgPicture.asset(
+                    'assets/devbanklogo.svg',
+                    width: 146,
+                    height: 122,
+                  ),
                 ),
               ),
               SizedBox(height: 20),
+              Text(
+                'Dev Bank',
+                style: GoogleFonts.lato(
+                  fontSize: 24,
+                  fontWeight: FontWeight.w700,
+                  color: AppColors.primary100,
+                ),
+              ),
               const Spacer(),
               const Padding(
                 padding: EdgeInsets.only(bottom: 50),
                 child: CircularProgressIndicator(
-                  color: AppColors.white,
+                  color: AppColors.primary100,
                 ),
               ),
               Row(
@@ -54,7 +65,7 @@ class _SplashScreenState extends State<SplashScreen> {
                     style: GoogleFonts.lato(
                       fontSize: 14,
                       fontWeight: FontWeight.w400,
-                      color: AppColors.white,
+                      color: AppColors.primary400,
                     ),
                   ),
                   SizedBox(
@@ -65,7 +76,7 @@ class _SplashScreenState extends State<SplashScreen> {
                     style: GoogleFonts.lato(
                       fontSize: 14,
                       fontWeight: FontWeight.w400,
-                      color: AppColors.white,
+                      color: AppColors.primary400,
                     ),
                   ),
                 ],

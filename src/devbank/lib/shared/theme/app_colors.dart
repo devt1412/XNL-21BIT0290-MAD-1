@@ -7,30 +7,22 @@ class AppColors {
   static const Color lightGrey = Color(0xffAAB8C2);
   static const Color extraLightGrey = Color(0xffE1E8ED);
   static const Color darkGrey = Color(0xff545454);
+  static const Color transparent = Color(0x00000000);
 
   //primary colors
-  static const Color primary50 = Color(0xfff1f4fe);
-  static const Color primary100 = Color(0xffe3e9fc);
-  static const Color primary200 = Color(0xffbeccf9);
-  static const Color primary300 = Color(0xff99aef5);
-  static const Color primary400 = Color(0xff5c7fef);
-  static const Color primary500 = Color(0xff1034a6);
-  static const Color primary600 = Color(0xff0e2c90);
-  static const Color primary800 = Color(0xff0c277e);
-  static const Color primary900 = Color(0xff0a1f66);
-  static const Color primary1000 = Color(0xff071546);
+  static const Color primary100 = Color(0xff05CCF3);
+  static const Color primary200 = Color(0xff07C0E4);
+  static const Color primary300 = Color(0xff0D65C9);
+  static const Color primary400 = Color(0xff0D42C9);
+  static const Color primary500 = Color(0xff0D26C9);
 
   //neutral colors
-  static const Color neutral50 = Color(0xfff4f4f5);
-  static const Color neutral100 = Color(0xffe7e7e9);
-  static const Color neutral200 = Color(0xffcfcfd3);
-  static const Color neutral300 = Color(0xffAFB0B6);
-  static const Color neutral400 = Color(0xff848590);
-  static const Color neutral500 = Color(0xff404147);
-  static const Color neutral600 = Color(0xff38393E);
-  static const Color neutral700 = Color(0xff303136);
-  static const Color neutral800 = Color(0xff27272B);
-  static const Color neutral900 = Color(0xff18191B);
+  static const Color neutral70 = Color(0xffFAFAFA);
+  static const Color neutral80 = Color(0xffA1A1A1);
+  static const Color neutral90 = Color(0xff5E5E5E);
+  static const Color neutral100 = Color(0xff545454);
+  static const Color neutral200 = Color(0xff3F3F3F);
+  static const Color neutral500 = Color(0xff0E0E0E);
 
   //success, alert, warning colors
   static const Color warningColorDark = Color(0xffED2E2E);
